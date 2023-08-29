@@ -27,5 +27,14 @@
 .container__imagem{
   padding: 1em; ;
 
+}
 
+.lista-menu{
+ display: none;
+
+}
+
+.container__botão:checked~.lista-menu{
+display: block;
+  
 }
