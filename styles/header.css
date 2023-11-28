@@ -69,8 +69,8 @@
 .container__botão{ display: none; } 
 
 @media screen and (min-width: 1024px) {
-  .container__titulo,
-  .container__titulo--negrito {
+.container__titulo,
+.container__titulo--negrito {
   font-family: var(--fonte-secundario);
   font-size: 30px;
   
@@ -117,6 +117,16 @@
 }
 
 .cabeçalho__menu-hamburguer {
+  display: none;
+}
+
+.opcoes__botao:checked~.lista-menu {
+  display: block;
+  width: auto;
+  
+}
+
+.opcoes__botao {
   display: none;
 }
 
